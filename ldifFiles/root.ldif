@@ -1,4 +1,4 @@
 dn: olcDatabase={0}config,cn=config
 changetype: modify
 replace: olcRootPW
-olcRootPW: {SSHA}aaaaaa
+olcRootPW: {SSHA}k1LTeSt0LmfzRQPtfPQ0EMzCBIKtF5o/eHTn5g==
