@@ -1,0 +1,6 @@
+version: 1
+
+dn: cn=config
+changetype: modify
+replace: olcSaslSecProps
+olcSaslSecProps: 65536

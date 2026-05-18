@@ -1,0 +1,9 @@
+# artifacts
+
+# misc
+.DS_STORE
+
+# LDAP configuration
+backup/*
+certs/*
+config/*

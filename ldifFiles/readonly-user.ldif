@@ -1,0 +1,6 @@
+dn: cn=readonly,cn=system,dc=ldap,dc=local
+objectClass: organizationalRole
+objectClass: simpleSecurityObject
+cn: readonly
+userPassword: {SSHA}aaaaaaaaaaaaaaaa
+description: Bind DN user for LDAP Operations

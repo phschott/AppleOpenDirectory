@@ -1,0 +1,60 @@
+version: 1
+
+dn: cn=users,dc=ldap,dc=local
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+ou: users
+cn: users
+
+dn: cn=groups,dc=ldap,dc=local
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+ou: groups
+cn: groups
+
+dn: cn=system,dc=ldap,dc=local
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+ou: system
+cn: system
+
+dn: uid=admin2,cn=users,dc=ldap,dc=local
+objectClass: apple-user
+objectClass: extensibleObject
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: top
+cn: Administrator2
+gidNumber: 20
+homeDirectory: /Users/admin2
+sn: admin2
+uid: admin2
+uidNumber: 502
+apple-generateduid: 27e8d648-db5b-4301-8189-eae4e5def14f
+displayName: Administrator2
+gecos: Administrator2
+givenName: Administrator2
+loginShell: /bin/zsh
+userPassword:: e1NTSEF9WkpLbm1oeG1oZ2tjdm5CSm8zVmZRSmkwOHQrZ3dNOXZ3MkkwaHc9P
+ Q==
+
+dn: cn=admin,cn=groups,dc=ldap,dc=local
+objectClass: apple-group
+objectClass: extensibleObject
+objectClass: posixGroup
+objectClass: top
+cn: admin
+gidNumber: 80
+memberUid: admin2
+
+dn: cn=staff,cn=groups,dc=ldap,dc=local
+objectClass: apple-group
+objectClass: extensibleObject
+objectClass: posixGroup
+objectClass: top
+cn: staff
+gidNumber: 20

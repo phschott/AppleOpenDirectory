@@ -1,0 +1,18 @@
+version: 1
+
+dn: cn=config
+changetype: modify
+# add, replace, remove
+replace: olcTLSCACertificateFile
+#olcTLSCACertificateFile: /etc/ssl/openldap/certs/cacert.pem
+olcTLSCACertificateFile: /etc/ssl/openldap/certs/GandiCert.pem
+-
+# add, replace, remove
+replace: olcTLSCertificateKeyFile
+#olcTLSCertificateKeyFile: /etc/ssl/openldap/private/ldapserver-key.key
+olcTLSCertificateKeyFile: /etc/ssl/openldap/certs/ldap.local.key
+-
+# add, replace, remove
+replace: olcTLSCertificateFile
+#olcTLSCertificateFile: /etc/ssl/openldap/certs/ldapserver-cert.crt
+olcTLSCertificateFile: /etc/ssl/openldap/certs/ldap.local.crt

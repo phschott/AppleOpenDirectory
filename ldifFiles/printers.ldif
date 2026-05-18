@@ -1,0 +1,7 @@
+version: 1
+
+dn: cn=printers,dc=ldap,dc=local
+objectClass: extensibleObject
+objectClass: organizationalUnit
+objectClass: top
+ou: printers

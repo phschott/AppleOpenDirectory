@@ -1,0 +1,3 @@
+#!/bin/bash
+#uuidgen | tr "[A-Z]" "[a-z]"
+uuidgen
