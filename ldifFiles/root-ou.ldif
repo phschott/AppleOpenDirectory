@@ -1,5 +1,0 @@
-dn:dc=ldap,dc=local
-objectClass:dcObject
-objectClass:organizationalUnit
-dc:ldap
-ou:ldap

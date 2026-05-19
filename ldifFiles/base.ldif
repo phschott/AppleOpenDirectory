@@ -1,9 +1,0 @@
-dn: dc=ldap,dc=local
-objectclass: dcObject
-objectclass: organization
-o: ldap.local
-dc: ldap
-
-dn: cn=root,dc=ldap,dc=local
-objectclass: organizationalRole
-cn: root
